@@ -4,7 +4,6 @@ This repository contains controlled vocabularies developed for Ciência Vitae, a
 
 Dissertation Project
 
-This work is part of my dissertation project, which aims to enhance data consistency and interoperability within the Ciência Vitae platform by standardizing terminologies through SKOS-based controlled vocabularies.
-
+This work is part of my dissertation project, which aims to enhance data consistency and interoperability within the Ciência Vitae.
 Each controlled vocabulary is represented as an RDF file in SKOS format.
 These files can be used directly in RDF-compatible tools and platforms.
