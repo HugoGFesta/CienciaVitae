@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Funcao Desempenhada -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368144">
+        <dcterms:title>Function Performed</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of the specific functions performed in different professional contexts.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/FunctionPerformed">
+        <dcterms:title>Funcao Desempenhada</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#GuestScientistScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#PhDScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#ScienceTechnologyManagementScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#ScientificInitiationScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#ResearchIntegrationScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#ResearchScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#Master'sScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#PostPhDScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#ResearchTechnicianScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="XXX#Co-InvestigatorInCharge" />
+        <skos:hasTopConcept rdf:resource="XXX#TechnicalDevelopment" />
+        <skos:hasTopConcept rdf:resource="XXX#Researcher" />
+        <skos:hasTopConcept rdf:resource="XXX#PostPhDResearcher" />
+        <skos:hasTopConcept rdf:resource="XXX#ResearcherResponsible" />
+        <skos:hasTopConcept rdf:resource="XXX#Supervisor" />
+        <skos:hasTopConcept rdf:resource="XXX#Other" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#GuestScientistScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Cientista Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Guest Scientist scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#PhDScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ScienceTechnologyManagementScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Gestão de Ciência e Tecnologia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Science and Technology Management scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ScientificInitiationScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Iniciação Científica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific initiation scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ResearchIntegrationScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Integração na Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Integration scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ResearchScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Master'sScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Mestrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#PostPhDScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Pós-Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post PhD scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ResearchTechnicianScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Técnico de Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Technician scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Co-InvestigatorInCharge" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Co-Investigador Responsável (Co-IR)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-Investigator in Charge (Co-IR)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#TechnicalDevelopment" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Desenvolvimento técnico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical development</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Researcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#PostPhDResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Pós-doutorado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post PhD researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ResearcherResponsible" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador responsável</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Researcher responsible</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Supervisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Supervisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://ws.org/FunctionPerformed" />
+    </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Estado dbpedia:currentStatus-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368140">
+        <dcterms:title>Current status</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of status: education, orientation, project, patent, publication, permit.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+
+    <skos:ConceptScheme rdf:about="http://ws.org/CurrentStatus">
+        <dcterms:title>Estado</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#StateOfEducation" />
+        <skos:hasTopConcept rdf:resource="XXX#ProjectStatus" />
+        <skos:hasTopConcept rdf:resource="XXX#OrientationStatus" />
+        <skos:hasTopConcept rdf:resource="XXX#PatentStatus" />
+        <skos:hasTopConcept rdf:resource="XXX#PublicationStatus" />
+        <skos:hasTopConcept rdf:resource="XXX#PermitStatus" />
+    </skos:ConceptScheme>
+
+<!-- Estado da formação-->
+
+    <skos:Concept rdf:about="XXX#StateOfEducation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estado da Formacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">State of Education</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="ongoing" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Em Curso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ongoing</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#StateOfEducation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="attended" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Frequentou</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Attended</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#StateOfEducation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="completed" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concluido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Completed</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#StateOfEducation" />
+    </skos:Concept>
+
+<!-- Estado do projeto-->
+
+    <skos:Concept rdf:about="XXX#ProjectStatus" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estado do Projeto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Project status</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="completed" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concluido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Completed</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#ProjectStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="deactivated" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Desativado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Deactivated</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#ProjectStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="underEvaluation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Em avaliacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Under evaluation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#ProjectStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="ongoing" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Em curso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ongoing</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#ProjectStatus" />
+    </skos:Concept>    
+
+	<skos:Concept rdf:about="notFinanced" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Nao financiado</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Not financed</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#ProjectStatus" />
+	</skos:Concept>
+
+	<skos:Concept rdf:about="submitted" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Submetido</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Submitted</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#ProjectStatus" />
+	</skos:Concept>
+
+<!-- Estado da orientação-->
+
+    <skos:Concept rdf:about="XXX#OrientationStatus" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estado da Orientacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Orientation Status</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="completed" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concluido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Completed</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#OrientationStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="ongoing" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Em Curso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ongoing</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#OrientationStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#OrientationStatus" />
+    </skos:Concept>
+
+<!-- Estado da patente-->
+
+    <skos:Concept rdf:about="XXX#PatentStatus" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estado da Patente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Patent status</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="granted" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concedida/Emitida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Granted/issued</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PatentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="expired" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Expirada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Expired</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PatentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="pending" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pendente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pending</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PatentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="allowed" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Permitida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Allowed</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PatentStatus" />
+
+    </skos:Concept>
+
+    <skos:Concept rdf:about="withdrawal" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Retirada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Withdrawal</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PatentStatus" />
+    </skos:Concept>
+
+<!-- Estado da publicação-->
+
+    <skos:Concept rdf:about="XXX#PublicationStatus" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estado da publicacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Publication status</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="accepted" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Aceite para publicacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Accepted for publication</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PublicationStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="underReview" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Em revisao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Under review</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PublicationStatus" />
+
+    </skos:Concept>
+
+    <skos:Concept rdf:about="inPrint" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">No prelo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">In print</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PublicationStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="published" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Publicado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PublicationStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="submitted" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Submetido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Submitted</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PublicationStatus" />
+    </skos:Concept>
+
+<!-- Estado do licenciamento-->
+
+    <skos:Concept rdf:about="XXX#PermitStatus" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Permit</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="granted" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Atribuida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Granted</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PermitStatus" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="inNegotiation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Em negociacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">In negotiation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/CurrentStatus" />
+        <skos:broader rdf:resource="XXX#PermitStatus" />
+    </skos:Concept>
+
+
+</rdf:RDF>

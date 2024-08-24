@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Produções -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368166">
+        <dcterms:title>Productions</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of production categories and their types.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/Production">
+        <dcterms:title>Produções</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Publications" />
+        <skos:hasTopConcept rdf:resource="XXX#Artistic" />
+        <skos:hasTopConcept rdf:resource="XXX#IntellectualProperty" />
+        <skos:hasTopConcept rdf:resource="XXX#Other" />
+    </skos:ConceptScheme>
+
+<!-- Publications -->
+
+    <skos:Concept rdf:about="XXX#Publications" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Publicações</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Publications</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="newsletterArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em boletim informativo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Newsletter article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="conferenceArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="newspaperArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em jornal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Newspaper article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="articleInMagazine" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Article in magazine</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="magazineArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em revista (magazine)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magazine article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="bookChapter" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Capítulo de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book chapter</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="exhibitionCatalog" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Catálogo de exposição</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Exhibition catalog</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="workingDocument" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Documento de trabalho</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Working document</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="bookEdition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Edição de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book edition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="magazineIssueEdition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Edição de número de revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magazine issue edition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="dictionaryEntry" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrada de dicionário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Dictionary entry</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="encyclopediaEntry" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrada de enciclopédia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Encyclopedia entry</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="testSheet" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Enunciado de teste</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Test sheet</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="book" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="manual" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Manual</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Manual</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="conferencePoster" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Poster em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference poster</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="preface" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Prefácio/Posfácio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Preface/Posface</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="prepress" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pré-impressão</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Prepress</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="onlineResource" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Recurso online</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Online resource</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="report" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Relatório</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Report</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="conferenceAbstract" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Resumo em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference abstract</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+        <skos:Concept rdf:about="bookReview" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Revisão de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book review</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="thesis" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tese/Dissertação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Thesis/Dissertation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="translation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tradução</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Translation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="website" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Website</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Website</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Publications" />
+    </skos:Concept>
+
+<!-- Artistic/Interpretation -->
+
+    <skos:Concept rdf:about="XXX#Artistic" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artística/Interpretação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Artistic/Interpretation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="visualArt" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arte visual</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Visual art</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="scenography" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Cenografia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scenography</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="musicalComposition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Composição musical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Musical composition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="fictionalTale" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Conto de ficção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Fictional tale</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>    
+
+	<skos:Concept rdf:about="choreography" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Coreografia</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Choreography</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+	</skos:Concept>
+
+	<skos:Concept rdf:about="artExhibition" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Exposição artística</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Art exhibition</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+	</skos:Concept>
+
+    <skos:Concept rdf:about="museumExhibition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Exposição de curadoria/museu</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Curator/museum exhibition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="audioRecording" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Gravação áudio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Audio recording</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="videoRecording" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Gravação vídeo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Video recording</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="script" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Guião</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Script</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>    
+
+	<skos:Concept rdf:about="artisticInterpretation" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Interpretação artística</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Artistic interpretation</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+	</skos:Concept>
+
+	<skos:Concept rdf:about="musicalInterpretation" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Interpretação musical</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Musical interpretation</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+	</skos:Concept>
+
+    <skos:Concept rdf:about="threatricalPiece" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Obra teatral</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Theatrical piece</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="radioShow" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Programa de rádio/tv</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Radio/TV show</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="lightingProject" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Projeto de luz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lighting project</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="soundProject" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Projeto de som</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sound project</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Artistic" />
+    </skos:Concept>    
+
+<!-- Intellectual Property -->
+
+    <skos:Concept rdf:about="XXX#IntellectualProperty" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Propriedade Intelectual</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Intellectual Property</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="licensing" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Licensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#IntellectualProperty" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="trademark" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Marca registada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Trademark</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#IntellectualProperty" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="patent" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Patente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Patent</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#IntellectualProperty" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="provisionalPatent" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pedido provisório de patente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Provisional patent application</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#IntellectualProperty" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="copyrightRegistration" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Registo de direitos de autor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Copyright registration</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#IntellectualProperty" />
+    </skos:Concept>
+
+<!-- Other -->
+
+    <skos:Concept rdf:about="XXX#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outros</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="annotation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Anotação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Annotation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="dataset" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Conjunto de dados</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Dataset</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="spinoffCompany" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Empresa spin-off</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Spin-off company</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="invention" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Invenção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invention</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="standardOrPolicy" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Norma ou política</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Standard or policy</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="technicalStandard" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Norma técnica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical standard</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="physicalObject" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Objeto Físico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Physical Object</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="otherproduction" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra produção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other production</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="dataManagementPlan" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Plano de gestão de dados</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Data management plan</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="legalProceedings" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Processo judicial</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Legal proceedings</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="software" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Software</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Software</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="researchTechnique" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnica de investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research technique</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Production" />
+        <skos:broader rdf:resource="XXX#Other" />
+    </skos:Concept>
+
+</rdf:RDF>

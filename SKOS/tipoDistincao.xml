@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!-- Distincoes -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368174">
+        <dcterms:title>Distinctions</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of types of distinctions recieved.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/Distinctions">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Award" />
+        <skos:hasTopConcept rdf:resource="XXX#Title" />
+        <skos:hasTopConcept rdf:resource="XXX#OtherDistinction" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#Award" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Prémio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Award</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Distinctions" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Distinctions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Title" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Título</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Title</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Distinctions" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Distinctions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#OtherDistinction" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra distinção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other distinction</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Distinctions" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Distinctions" />
+    </skos:Concept>
+
+</rdf:RDF>

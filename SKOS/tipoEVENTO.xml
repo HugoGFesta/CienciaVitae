@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de evento dbpedia:event-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368176">
+        <dcterms:title>Type of event</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of events attended.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/Event">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Concert" />
+        <skos:hasTopConcept rdf:resource="XXX#Contest" />
+        <skos:hasTopConcept rdf:resource="XXX#Conference" />
+        <skos:hasTopConcept rdf:resource="XXX#Congrees" />
+        <skos:hasTopConcept rdf:resource="XXX#Meeting" />
+        <skos:hasTopConcept rdf:resource="XXX#Exhibition" />
+        <skos:hasTopConcept rdf:resource="XXX#Festival" />
+        <skos:hasTopConcept rdf:resource="XXX#RoundTable" />
+        <skos:hasTopConcept rdf:resource="XXX#Workshop" />
+        <skos:hasTopConcept rdf:resource="XXX#Other" />
+        <skos:hasTopConcept rdf:resource="XXX#Seminar" />
+        <skos:hasTopConcept rdf:resource="XXX#Symposium" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#Concert" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concerto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Concert</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Contest" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concurso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Contest</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Conference" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Conferencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Congrees" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Congresso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Congress</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Meeting" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Encontro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Meeting</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Exhibition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Exposicao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Exhibition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Festival" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Festival</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Festival</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#RoundTable" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mesa-redonda</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Round table</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Workshop" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Oficina (workshop)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Workshop</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Seminar" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Seminário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Seminar</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Symposium" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Simpósio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Symposium</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Event" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Event" />
+    </skos:Concept>
+
+</rdf:RDF>

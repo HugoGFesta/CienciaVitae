@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- GrauAcademico vivo:degreeCandidacy -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368147">
+        <dcterms:title>Academic Degree</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of academic degree's.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/Degree">
+        <dcterms:title>Grau Academico</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Graduation" />
+        <skos:hasTopConcept rdf:resource="XXX#MastersDegree" />
+        <skos:hasTopConcept rdf:resource="XXX#PhD" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#Graduation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciatura</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Graduation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Degree" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Degree" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="XXX#MastersDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mestrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's Degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Degree" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Degree" />
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="XXX#PhD" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Degree" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Degree" />
+    </skos:Concept>
+
+</rdf:RDF>

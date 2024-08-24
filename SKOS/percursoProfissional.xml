@@ -1,0 +1,3236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Percurso Profissional  vivo:hrJobTitle  -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+	<rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368162">
+        <dcterms:title>Career path</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of the different careers, professional relationships and professional categories.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/TypeOfProfession">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Science" />
+        <skos:hasTopConcept rdf:resource="XXX#TeachingInHigherEducation" />
+        <skos:hasTopConcept rdf:resource="XXX#OtherCareers" />
+        <skos:hasTopConcept rdf:resource="XXX#Positions" />
+        <skos:hasTopConcept rdf:resource="XXX#Others" />
+    </skos:ConceptScheme>
+
+<!-- Science  -->
+
+    <skos:Concept rdf:about="XXX#Science" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Ciência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Science</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfProfession" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="investigation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Investigation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Science" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="researchCoordinator" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Coordenador (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Coordinator (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="invitedCoordinationResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Coordenador Convidado (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Coordinating Researcher (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="seniorResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Principal (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Senior Researcher (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="invitedSeniorResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador principal convidado (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Senior Researcher (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="auxiliaryResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Auxiliar (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Auxiliary Researcher (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="invitedAuxiliaryResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Auxiliar Convidado (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Auxiliary Researcher (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="researchAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente de Investigação (carreira)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Assistant (career)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="researchTrainee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estagiário de Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Trainee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="hiredResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Contratado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Hired researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="visitingResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador visitante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Visiting researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="researcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="postPhD" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pós-Doutorado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post-PhD</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="investigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="scienceAndTechnologyManagement" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Gestão de Ciência e Tecnologia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Science and Technology Management</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Science" />
+    </skos:Concept>
+
+<!-- Teaching in Higher Education  -->
+
+    <skos:Concept rdf:about="XXX#TeachingInHigherEducation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Docência no Ensino Superior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Teaching in Higher Education</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfProfession" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="universityTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Docente Universitário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">University Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#TeachingInHigherEducation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="fullProfessor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Catedrático</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Full Professor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="fullTeacherInvited" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Catedrático Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Full Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="associateTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Associado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Associate Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="associateTeacherInvited" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Associado Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Associate Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="assistantTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Auxiliar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Assistant Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="invitedAssistantTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Auxiliar Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Assistant Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="visitingProfessor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Visitante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Visiting Professor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="assistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="invitedAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="internAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente Estagiário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Intern Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="reader" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Leitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Reader</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="monitoring" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Monitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Monitoring</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="universityTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="polytechnicHigherEducationTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Docente Ensino Superior Politécnico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Polytechnic Higher Education Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#TeachingInHigherEducation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="principalCoordinatingTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Coordenador Principal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Principal Coordinating Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="coordinationTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Coordenador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coordinating Teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="invitedCoordinationProfessor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Coordenador Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Coordinating Professor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="assistantProfessor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Adjunto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Assistant Professor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="invitedAssistantProfessor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Adjunto Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invited Assistant Professor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="visitingProfessorr" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor Visitante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Visiting Professor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="assitantt" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="guestAssistantt" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Guest assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="monitoringg" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Monitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Monitoring</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="polytechnicHigherEducationTeacher" />
+    </skos:Concept>
+
+ <!-- Other Careers  -->
+
+    <skos:Concept rdf:about="XXX#OtherCareers" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outras Carreiras</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other Careers</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfProfession" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="generalCareers" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Carreiras Gerais</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">General Careers</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#OtherCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="operationalAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente Operacional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Operational Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="generalCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="operationsManager" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Encarregado Operacional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Operations Manager</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="generalCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="operationalGeneralManager" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Encarregado Geral Operacional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Operational General Manager</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="generalCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="technicalAssitant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente Técnico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="generalCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="technicalCoordinator" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coordenador Técnico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical Coordinator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="generalCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="seniorTechnician" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico Superior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Senior Technician</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="generalCareers" />
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="specialCareers" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Carreiras Especiais</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Special Careers</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#OtherCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="seniorGraduateAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente graduado sénior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Senior graduate assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="graduateAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente graduado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Graduate assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="medicalAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente médico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Medical assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="internDoctor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Interno</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Intern doctor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="nurse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Enfermeiro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nurse</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="specializedNurse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Enfermeiro especialista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Specialized nurse</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="nurseManager" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Enfermeiro gestor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nurse manager</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="leadNurse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Enfermeiro principal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lead nurse</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="pharmaceuticalAssistant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assistente Farmacêutico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pharmaceutical Assistant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="advisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="seniorAdvisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Assessor sénior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Senior advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="specialCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="careers" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Carreiras / Categorias Subsistentes</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Careers / Subsisting Categories</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#OtherCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="teachingStaff" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pessoal Docente - Carreiras e Categorias não revistas</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Teaching Staff - Careers and Categories not revised</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#OtherCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="kindergartenTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Educador de infância</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Kindergarten teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="teachingStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="elementaryAndHighSchoolTeacher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Professor de ensino básico e secundário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Elementary and high school teacher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="teachingStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itStaff" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pessoal de informática</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT staff</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#OtherCareers" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianG3L2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 3 Nível 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 3 Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianG3L1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 3 Nível 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 3 Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianG2L2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 2 Nível 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 2 Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianG2L1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 2 Nível 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 2 Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianG1L3" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 1 Nível 3</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 1 Level 3</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianG1L2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 1 Nível 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 1 Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="traineeITTechnician" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Estagiário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Trainee IT Technician</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="computerTechnicianG1L1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática Grau 1 Nível 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician Grade 1 Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianAttachmentL3" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática-Adjunto Nivel 3</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician-Attachment Level 3</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="computerTechnicianAttachmentL2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática-Adjunto Nivel 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician-Attachment Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianAttachmentL1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática-Adjunto Nivel 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician-Attachment Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="computerTechnicianAttachmentTrainee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnico de Informática-Adjunto Estagiário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Computer Technician-Attachment Trainee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG3L2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 3 Nível 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 3 Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG3L1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 3 Nível 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 3 Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG2L2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 2 Nível 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 2 Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG2L1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 2 Nível 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 2 Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG1L3" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 1 Nível 3</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 1 Level 3</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG1L2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 1 Nível 2</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 1 Level 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="graduateTrainee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estagiário com Licenciatura</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Graduate trainee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="traineeWithHigherEducation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Estagiário com Curso Superior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Trainee with higher education</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itSpecialistG1L1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista de Informática Grau 1 Nível 1</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Specialist Grade 1 Level 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="itConsultant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Consultor de Informática</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IT Consultant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="technicalCoordinatio" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coordenador Técnico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical Coordinator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="projectCoordinator" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coordenador de Projeto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Project Coordinator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="itStaff" />
+    </skos:Concept>
+
+    <skos:ConceptScheme rdf:about="XXX#HealthStaff" >
+        <skos:prefLabel xml:lang="pt">Pessoal da Saúde</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Health staff</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="#HeathStaff01"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>
+        <skos:hasTopConcept rdf:resource="#HeathStaff11"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>
+        <skos:hasTopConcept rdf:resource="#HeathStaff21"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>
+        <skos:hasTopConcept rdf:resource="#HeathStaff31"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#OtherCareers" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="#HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+	    <skos:narrower rdf:resource="#Sub01HeathStaff01"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff01"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff01"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff01"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff01"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff01"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff01"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff01"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff01"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff01"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff01">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff01"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Engenharia Sanitária</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Sanitary Engineering</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff02"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff02"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff02"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff02"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff02"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff02">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff02"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Farmácia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Pharmacy</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff03"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff03"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff03"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff03"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff03"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff03"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff03">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff03"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Física Hospitalar</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Hospital Physics</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff04"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff04"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff04"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff04"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff04"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff04">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff04"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Genética</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Genetics</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff05"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff05"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff05"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff05"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff05"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff05"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff05">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff05"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Laboratório</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Laboratory</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff06"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff06"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff06"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff06"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff06"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff06"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="#Sub01HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff06">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff06"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff07"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff07"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff07"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff07"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff07"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff07"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff07">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Medicina Nuclear Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nuclear Medicine Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff07"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior de Saúde - Nutrição</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Senior Health Technician - Nutrition</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+	    <skos:narrower rdf:resource="#Sub01HeathStaff08"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff08"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff08"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff08"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff08"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff08"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff08">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff08"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Pessoal da Saúde - Técnico Superior de Saúde - Psicologia Clínica</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Health Personnel - Senior Health Technician - Clinical Psychology</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+	    <skos:narrower rdf:resource="#Sub01HeathStaff09"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff09"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff09"/>	
+	    <skos:narrower rdf:resource="#Sub08HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub09HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub10HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub11HeathStaff09"/>
+	    <skos:narrower rdf:resource="#Sub12HeathStaff09"/>
+        <skos:narrower rdf:resource="#Sub13HeathStaff09"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Legal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Forensic Medicine Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Legal Assessor Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Forensic Technician Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub09HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Legal Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Forensic Medicine Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub10HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Legal Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Forensic Technician Principal</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub11HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Legal 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Forensic Medical Technician 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub12HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Legal 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Technician Forensic Medicine 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub13HeathStaff09">
+	    <skos:prefLabel xml:lang="pt">Técnico Superior Medicina Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee Medical Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff09"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Pessoal da Saúde - Técnico Superior de Saúde - Veterinária</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Health Personnel - Senior Health Technician - Veterinary</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff10"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff10"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff10"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff10"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff10"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff10"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Assessor Superior</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Assessor</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Assistente Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Assistente</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Estagiário (3ª e 4ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (3rd and 4th Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff10">
+	    <skos:prefLabel xml:lang="pt">Estagiário (1ª e 2ª Ano)</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee (1st and 2nd Year)</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff10"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Audiologia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Audiology Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff11"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff11"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff11"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff11"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff11"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff11"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff11"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff11"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico Audiometria Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Audiometry Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff11">
+	    <skos:prefLabel xml:lang="pt">Técnico Audiometria Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Audiometry Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff11"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Cardiopneumologia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Cardiopneumology Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff12"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff12"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff12"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff12"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff12"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff12"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff12"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff12"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico Cardiopneumografia Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Cardiopneumography Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff12">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Cardiografista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Cardiographer's assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff12"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Dietista</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Dietitian</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff13"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff13"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff13"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff13"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff13"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff13"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff13"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff13"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Dietista Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Dietitian Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff13">
+	    <skos:prefLabel xml:lang="pt">Dietista Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee Dietitian</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff13"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Fisioterapeuta</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Physiotherapist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff14"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff14"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff14"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff14"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff14"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff14"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff14"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff14"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico Fisioterapeuta Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Physiotherapist Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff14">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Fisioterapeuta</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Physiotherapist's assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff14"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Neurofisiologia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Neurophysiology Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff15"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff15"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff15"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff15"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff15"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff15"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff15"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff15"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico Neurofisiologia Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Neurophysiology Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff15">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Neurofisiografia</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Neurophysiography assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff15"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Ortoprostésico</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Orthoprosthetics</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff16"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff16"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff16"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff16"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff16"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff16"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff16"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff16"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico Ortopróteses Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Orthoprosthetic Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff16">
+	    <skos:prefLabel xml:lang="pt">Auxiliar Protesico</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Prosthetic assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff16"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Ortoptista</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Orthoptist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff17"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff17"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff17"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff17"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff17"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff17"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff17"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff17"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico Ortóptica Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Orthoptic Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff17">
+	    <skos:prefLabel xml:lang="pt">Auxiliar Ortóptica</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Orthoptic assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff17"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Próteses Dentárias</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Dental Prosthesis Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff18"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff18"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff18"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff18"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff18"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff18"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff18"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff18"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico Proteses Dentárias Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Dental Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff18">
+	    <skos:prefLabel xml:lang="pt">Técnico Proteses Dentárias Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Dental Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff18"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Radiologia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Radiology Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff19"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff19"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff19"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff19"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff19"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff19"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff19"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff19"/>
+        <skos:narrower rdf:resource="#Sub09HeathStaff19"/>
+	    <skos:narrower rdf:resource="#Sub10HeathStaff19"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico Radiologia Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Radiology Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Radiografista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Radiographer assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub09HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Segundo-Técnico Radiografista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Second Technician Radiographer</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub10HeathStaff19">
+	    <skos:prefLabel xml:lang="pt">Encarregado de Câmara Escura</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Darkroom Manager</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff19"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Radioterapia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Radiotherapy Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff20"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff20"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff20"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff20"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff20"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff20"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff20"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff20"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico Radioterapia Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Radiotherapy Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff20">
+	    <skos:prefLabel xml:lang="pt">Primeiro-Técnico</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">First Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff20"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Análises Clínicas e de Saúde Pública</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Clinical and Public Health Analyses Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff21"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff21"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff21"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff21"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff21"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff21"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff21"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff21"/>
+        <skos:narrower rdf:resource="#Sub09HeathStaff21"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Clínicas Saúde Pública Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Clinical Analyses Technician Public Health Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Preparação de Análises Clínicas</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Clinical Analysis Preparation Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub09HeathStaff21">
+	    <skos:prefLabel xml:lang="pt">Preparador de Análises Clínicas</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Clinical Analyses Preparer</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff21"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Anatomia Patológica, Citológica e Tanatológica</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Pathological, Cytological and Thanatological Anatomy Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff22"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff22"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff22"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff22"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff22"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff22"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff22"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff22"/>
+        <skos:narrower rdf:resource="#Sub09HeathStaff22"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico Anatomia Patológica Citológica Tanatológica Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technician Pathological Anatomy Cytological Thanatological Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Preparação de Anatomia Patológica</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Pathological Anatomy Preparation Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub09HeathStaff22">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Tanatologia</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Thanatology assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff22"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Farmácia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Pharmacy Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff23"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff23"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff23"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff23"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff23"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff23"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff23"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff23"/>
+        <skos:narrower rdf:resource="#Sub09HeathStaff23"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmácia Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Pharmacy Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Preparações Farmacêuticas</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Pharmaceutical preparations assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub09HeathStaff23">
+	    <skos:prefLabel xml:lang="pt">Auxiliar de Farmácia Hospitalar</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Hospital Pharmacy Assistant</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff23"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Medicina Nuclear</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Nuclear Medicine Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff24"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff24"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff24"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff24"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff24"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff24"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff24"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff24"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico Medicina Nuclear Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Nuclear Medicine Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff24">
+	    <skos:prefLabel xml:lang="pt">Técnico Medicina Nuclear Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Nuclear Medicine Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff24"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Terapeuta Ocupacional</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Occupational Therapist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff25"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff25"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff25"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff25"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff25"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff25"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff25"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff25"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico Ocupacional Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Occupational Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff25">
+	    <skos:prefLabel xml:lang="pt">Terapeuta Ocupacional Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee Occupational Therapist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff25"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Terapeuta da Fala</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Speech Therapist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff26"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff26"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff26"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff26"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff26"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff26"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff26"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff26"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Terapeuta Fala Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Speech Therapist Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff26">
+	    <skos:prefLabel xml:lang="pt">Terapeuta Fala Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee Speech Therapist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff26"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Analises Quimicas Toxicológicas Bromato</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Toxicological Chemical Analysis Technician Bromate</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff27"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff27"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff27"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff27"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff27"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff27"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff27"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff27"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Chemical Toxicological Analysis Technician Bromate Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato Especialista 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technician Chemical Toxicological Analysis Bromate Specialist 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technician Chemical Toxicological Analysis Bromate Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technician Chemical Toxicological Analysis Bromate Principal</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technician Chemical Toxicological Analysis Bromate 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technician Chemical Toxicological Analysis Bromate 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff27">
+	    <skos:prefLabel xml:lang="pt">Técnico Análises Quimicas Toxicológicas Bromato Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Bromate Toxicological Chemical Analysis Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff27"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Técnico de Saúde Ambiental</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Environmental Health Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff28"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff28"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff28"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff28"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff28"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff28"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff28"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff28"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Ambiental Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Hygiene Technician Environmental Health Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff28">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Ambiental Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Hygiene Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff28"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff29"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff29"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff29"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff29"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff29"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff29"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff29"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff29"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico Diagonostico Terapêutica Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Diagonostic Therapeutic Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff29">
+	    <skos:prefLabel xml:lang="pt">Técnico Diagonostico Terapêutica Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Diagonostic Therapeutic Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff29"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Técnico Nutricionista</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Nutrition Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff30"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff30"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff30"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff30"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff30"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff30"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff30"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Nutricionista Especialista Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Specialist Nutritionist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Nutricionista Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Nutritionist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Nutricionista Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Nutritionist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Nutricionista 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Nutritionist 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Nutricionista 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Nutritionist 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff30">
+	    <skos:prefLabel xml:lang="pt">Nutricionista Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee Nutritionist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff30"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Pharmaceutical Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff31"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff31"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff31"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff31"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff31"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff31"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff31"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff31"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Pharmaceutical Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico Especialista Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Specialist Pharmaceutical Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Pharmaceutical Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Senior Pharmaceutical Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Pharmaceutical Technician 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Pharmaceutical Technician 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff31">
+	    <skos:prefLabel xml:lang="pt">Técnico Farmacêutico Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Trainee Pharmaceutical Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Psychology Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff32"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff32"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff32"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff32"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff32"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff32"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff32"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia Especialista Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Psychology Technician Principal Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Psychology Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Psychology Technician Principal</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff31"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Psychology Technician 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Psychology Technician 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff32">
+	    <skos:prefLabel xml:lang="pt">Técnico Psicologia Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Psychology Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff32"/>	
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="#HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico e Terapêutica - Higienista Oral</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagnostic and Therapeutic Technician - Oral hygiene</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff33"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff33"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff33"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff33"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff33"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff33"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff33"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff33"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Oral Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Oral Hygiene Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Specialist Technician 1st Class</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Technical Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Principal Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico de 1ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">1st Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico de 2ª Classe</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">2nd Class Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff33">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Oral Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Oral Hygiene Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff33"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff34"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff34"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff34"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff34"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff34"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff34"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff34"/>
+	    <skos:narrower rdf:resource="#Sub08HeathStaff34"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental Especialista 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician Specialist 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician Principal</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub08HeathStaff34">
+	    <skos:prefLabel xml:lang="pt">Técnico Higiene Saúde Mental Estagiário</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Mental Health Hygiene Technician Trainee</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff34"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico de Diagnóstico Terapeuta Saúde Ambiental</skos:prefLabel>
+	    <skos:prefLabel xml:lang="en">Diagonostic Technician Environmental Health Therapist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:topConceptOf rdf:resource="XXX#HealthStaff"/>
+        <skos:narrower rdf:resource="#Sub01HeathStaff35"/>	
+	    <skos:narrower rdf:resource="#Sub02HeathStaff35"/>
+	    <skos:narrower rdf:resource="#Sub03HeathStaff35"/>
+	    <skos:narrower rdf:resource="#Sub04HeathStaff35"/>
+	    <skos:narrower rdf:resource="#Sub05HeathStaff35"/>
+	    <skos:narrower rdf:resource="#Sub06HeathStaff35"/>
+        <skos:narrower rdf:resource="#Sub07HeathStaff35"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub01HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico Saúde Ambiental Director</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Health Technician Director</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub02HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub03HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico Saúde Ambiental Especialista 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Health Technician Specialist 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub04HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico Saúde Ambiental Especialista</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Health Technician Specialist</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub05HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico Saúde Ambiental Principal</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Health Technician Principal</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub06HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico Saúde Ambiental 1 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Health Technician 1 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+    <skos:Concept rdf:about="#Sub07HeathStaff35">
+	    <skos:prefLabel xml:lang="pt">Técnico Saúde Ambiental 2 CI</skos:prefLabel>	
+	    <skos:prefLabel xml:lang="en">Environmental Health Technician 2 CI</skos:prefLabel>
+	    <skos:inScheme rdf:resource="XXX#HealthStaff"/>
+	    <skos:hasTopConcept rdf:resource="#HeathStaff35"/>	
+    </skos:Concept>
+
+<!-- Positions / Appointments  -->
+
+    <skos:Concept rdf:about="XXX#Positions" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Cargos e Funções</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Positions / Appointments</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfProfession" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="dean">
+        <skos:prefLabel xml:lang="pt">Reitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Dean</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="viceDean">
+        <skos:prefLabel xml:lang="pt">Pró-Reitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-Dean</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="president">
+        <skos:prefLabel xml:lang="pt">Presidente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">President</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="vicePresident">
+        <skos:prefLabel xml:lang="pt">Pró-Presidente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-President</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="viceDeann">
+        <skos:prefLabel xml:lang="pt">Vice-Reitor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-Dean</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="vicePresidentt">
+        <skos:prefLabel xml:lang="pt">Vice-Presidente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-President</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="higherEducationInstitutionAdministrator">
+        <skos:prefLabel xml:lang="pt">Administrador de Instituição de Ensino Superior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Higher Education Institution Administrator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="directorOfOrganicUnit">
+        <skos:prefLabel xml:lang="pt">Director de Unidade Orgânica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Director of Organic Unit</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="deputyDirectorOfOrganicUnit">
+        <skos:prefLabel xml:lang="pt">Subdiretor de Unidade Orgânica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Deputy Director of Organic Unit</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="presidentOfOrganicUnit">
+        <skos:prefLabel xml:lang="pt">Presidente de Unidade Orgânica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">President of Organic Unit</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="chairmanOfTheScientificCouncil">
+        <skos:prefLabel xml:lang="pt">Presidente do Conselho Científico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chairman of the Scientific Council</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="chairmanOfTheTechnicalScientificCouncil">
+        <skos:prefLabel xml:lang="pt">Presidente do Conselho Técnico-Científico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chairman of the Technical-Scientific Council</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="chairmanOfThePedagogicalCouncil">
+        <skos:prefLabel xml:lang="pt">Presidente do Conselho Pedagógico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chairman of the Pedagogical Council</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="presidentOfTheSchoolCouncil">
+        <skos:prefLabel xml:lang="pt">Presidente do Conselho Escolar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">President of the School Council</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="vicePresidentOfTheOrganicUnit">
+        <skos:prefLabel xml:lang="pt">Vice-Presidente da Unidade Orgânica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-President of the Organic Unit</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="viceChairmanOfTheSchoolCouncil">
+        <skos:prefLabel xml:lang="pt">Vice-Presidente do Conselho Escolar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-Chairman of the School Council</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="OtherAppointments">
+        <skos:prefLabel xml:lang="pt">Outros (Ex: Nomeações)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other e.g. appointments</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="HeadOfLaboratoryInstituteMuseumCenterObservatory">
+        <skos:prefLabel xml:lang="pt">Dirigente de laboratório, instituto, museu, centro ou observatório</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Head of a laboratory, institute, museum, center or observatory</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:broader rdf:resource="XXX#Positions"/>
+    </skos:Concept>
+
+<!-- Others  -->
+
+    <skos:Concept rdf:about="XXX#Others" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outros</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Others</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfProfession" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfProfession" />
+    </skos:Concept>
+
+</rdf:RDF>

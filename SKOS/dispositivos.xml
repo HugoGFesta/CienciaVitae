@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Dispositivos -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368132">
+        <dcterms:title>Type of device</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of communication devices.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/TypeOfDevice">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Fax" />
+        <skos:hasTopConcept rdf:resource="XXX#Pager" />
+        <skos:hasTopConcept rdf:resource="XXX#Telephone" />
+        <skos:hasTopConcept rdf:resource="XXX#Cellphone" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#Fax" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Fax</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Fax</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfDevice" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Pager" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pager</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pager</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfDevice" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Telephone" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Telefone</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Telephone</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfDevice" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Cellphone" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Telemóvel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Cellphone</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfDevice" />
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de Website -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368196">
+        <dcterms:title>Type of website</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of websites available.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/TypeOfWebsite">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Academic" />
+        <skos:hasTopConcept rdf:resource="XXX#Blog" />
+        <skos:hasTopConcept rdf:resource="XXX#Feed" />
+        <skos:hasTopConcept rdf:resource="XXX#Personal" />
+        <skos:hasTopConcept rdf:resource="XXX#SocialMedia" />
+        <skos:hasTopConcept rdf:resource="XXX#Professional" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#Academic" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Académico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Academic</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Blog" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Blogue</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Blog</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Feed" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Feed</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Feed</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Personal" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pessoal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Personal</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#SocialMedia" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Rede Social</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Social Media</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Professional" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Profissional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Professional</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfWebsite" />
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Papel desempenhado -->
+<!-- vivo:roleContributesTo -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+    
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368158">
+        <dcterms:title>Role played</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of roles played.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/role">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#CoAdvisor" />
+        <skos:hasTopConcept rdf:resource="XXX#Advisor" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#CoAdvisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coorientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/role" />
+        <skos:topConceptOf rdf:resource="http://ws.org/role" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Advisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/role" />
+        <skos:topConceptOf rdf:resource="http://ws.org/role" />
+    </skos:Concept>
+
+</rdf:RDF>

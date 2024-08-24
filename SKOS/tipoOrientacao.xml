@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de Orientacao -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368186">
+        <dcterms:title>Type of Orientation</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of the types of orientation courses.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/TypeOfOrientation">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#FurtherEducationCourse" />
+        <skos:hasTopConcept rdf:resource="XXX#PhD" />
+        <skos:hasTopConcept rdf:resource="XXX#ScientificInitiation" />
+        <skos:hasTopConcept rdf:resource="XXX#BachelorsDegree" />
+        <skos:hasTopConcept rdf:resource="XXX#MastersDegree" />
+        <skos:hasTopConcept rdf:resource="XXX#Other" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#FurtherEducationCourse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso de aperfeicoamento/especializacao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Further education/specialization course</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfOrientation" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfOrientation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#PhD" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfOrientation" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfOrientation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ScientificInitiation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Iniciacao cientifica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific initiation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfOrientation" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfOrientation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#BachelorsDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciatura/Bacharelato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bachelor's Degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfOrientation" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfOrientation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#MastersDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mestrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's Degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfOrientation" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfOrientation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfOrientation" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfOrientation" />
+    </skos:Concept>
+
+</rdf:RDF>

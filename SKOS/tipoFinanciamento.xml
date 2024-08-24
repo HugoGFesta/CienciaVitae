@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Tipo de Financiamento vivo:providesFundingThrough -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368180">
+        <dcterms:title>Type of financing</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of project financing.</dcterms:description>
+        <dcterms:issued>2024-07-15</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/TypeOfFinancing">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#Scholarship" />
+        <skos:hasTopConcept rdf:resource="XXX#Other" />
+        <skos:hasTopConcept rdf:resource="XXX#Project" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#Scholarship" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolsa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scholarship</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfFinancing" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfFinancing" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfFinancing" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfFinancing" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Project" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Projeto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Project</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/TypeOfFinancing" />
+        <skos:topConceptOf rdf:resource="http://ws.org/TypeOfFinancing" />
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- competências linguísticas -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368130">
+        <dcterms:title>Language Skills</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of language skills levels.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://ws.org/LanguageSkills">
+        <dcterms:title>Competências linguísticas</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#BasicUser(A1)" />
+        <skos:hasTopConcept rdf:resource="XXX#BasicUser(A2)" />
+        <skos:hasTopConcept rdf:resource="XXX#IndependentUser(B1)" />
+        <skos:hasTopConcept rdf:resource="XXX#IndependentUser(B2)" />
+        <skos:hasTopConcept rdf:resource="XXX#ProficiencyUser(C1)" />
+        <skos:hasTopConcept rdf:resource="XXX#ProficiencyUser(C2)" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#BasicUser(A1)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador elementar (A1)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Basic user (A1)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://ws.org/LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#BasicUser(A2)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador elementar (A2)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Basic user (A2)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://ws.org/LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#IndependentUser(B1)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador independente (B1)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Independent user (B1)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://ws.org/LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#IndependentUser(B2)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador independente (B2)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Independent user (B2)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://ws.org/LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ProficiencyUser(C1)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador proficiente (C1)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Proficiency user (C1)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://ws.org/LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ProficiencyUser(C2)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador proficiente (C2)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Proficiency user (C2)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://ws.org/LanguageSkills" />
+    </skos:Concept>
+
+</rdf:RDF>

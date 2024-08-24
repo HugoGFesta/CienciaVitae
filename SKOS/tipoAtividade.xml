@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Atividades  dbpedia:activity-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13368172">
+        <dcterms:title>Type of activity</dcterms:title>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+        <dcterms:description>Vocabulary of different types of activities.</dcterms:description>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+    
+    <skos:ConceptScheme rdf:about="http://ws.org/Activity">
+        <dcterms:title>Tipo</dcterms:title>
+        <dcterms:date>2024</dcterms:date>
+        <skos:hasTopConcept rdf:resource="XXX#OralPresentationOfWork" />
+        <skos:hasTopConcept rdf:resource="XXX#ScientificArbitrationAtConference" />
+        <skos:hasTopConcept rdf:resource="XXX#ScientificRefereeingInJournals" />
+        <skos:hasTopConcept rdf:resource="XXX#EvaluationCommittee" />
+        <skos:hasTopConcept rdf:resource="XXX#Consulting" />
+        <skos:hasTopConcept rdf:resource="XXX#CourseTaught" />
+        <skos:hasTopConcept rdf:resource="XXX#Interview(program)" />
+        <skos:hasTopConcept rdf:resource="XXX#Interview(newspaper)" />
+        <skos:hasTopConcept rdf:resource="XXX#ScientificExpedition" />
+        <skos:hasTopConcept rdf:resource="XXX#AcademicDegreeJury" />
+        <skos:hasTopConcept rdf:resource="XXX#MemberAssociation" />
+        <skos:hasTopConcept rdf:resource="XXX#CommitteeMember" />
+        <skos:hasTopConcept rdf:resource="XXX#EventOrganization" />
+        <skos:hasTopConcept rdf:resource="XXX#Guidance" />
+        <skos:hasTopConcept rdf:resource="XXX#OtherJury" />
+        <skos:hasTopConcept rdf:resource="XXX#EventParticipation" />
+        <skos:hasTopConcept rdf:resource="XXX#LegalProcedure" />
+        <skos:hasTopConcept rdf:resource="XXX#AdHocReviewOfJournalArticles" />
+        <skos:hasTopConcept rdf:resource="XXX#Tutoring" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="XXX#OralPresentationOfWork" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Apresentação oral de trabalho</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Oral presentation of work</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ScientificArbitrationAtConference" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arbitragem científica em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific arbitration at conference</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ScientificRefereeingInJournals" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arbitragem científica em revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific refereeing in journals</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#EvaluationCommittee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Comissão de avaliação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Evaluation committee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Consulting" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Consultoria / Parecer</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Consulting / Opinion</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#CourseTaught" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso / Disciplina lecionado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Course / Subject taught</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Interview(program)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrevista / Programa (rádio / tv)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Interview / Program (radio / tv)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Interview(newspaper)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrevista (jornal / revista)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Interview (newspaper / magazine)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#ScientificExpedition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Expedição científica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific expedition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#AcademicDegreeJury" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Júri de grau académico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Academic degree jury</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#MemberAssociation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro da associação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Member of the association</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#CommitteeMember" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro de comissão</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Committee member</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#EventOrganization" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Organização de evento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Event organization</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#Guidance" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Guidance</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#OtherJury" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro júri / avaliação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other jury / evaluation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#EventParticipation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Participação em evento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Event participation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#LegalProcedure" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Processo legal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Legal procedure</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="XXX#AdHocReviewOfJournalArticles" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Revisão ad hoc de artigos em revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ad hoc review of journal articles</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="XXX#Tutoring" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tutoria</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Tutoring</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://ws.org/Activity" />
+        <skos:topConceptOf rdf:resource="http://ws.org/Activity" />
+    </skos:Concept>
+
+</rdf:RDF>
