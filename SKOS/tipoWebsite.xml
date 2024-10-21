@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de Website -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921867">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of website</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of website" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921867"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite">
+        <skos:prefLabel xml:lang="pt">Tipo de Website</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Website</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921867#Academic" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921867#Blog" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921867#Feed" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921867#Personal" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921867#SocialMedia" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921867#Professional" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921867#Academic" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Académico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Academic</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921867#Blog" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Blogue</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Blog</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921867#Feed" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Feed</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Feed</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921867#Personal" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pessoal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Personal</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921867#SocialMedia" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Rede Social</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Social Media</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921867#Professional" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Profissional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Professional</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921867#TypeOfWebsite" />
+    </skos:Concept>
+
+</rdf:RDF>

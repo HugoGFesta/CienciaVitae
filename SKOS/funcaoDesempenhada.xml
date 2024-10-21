@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Funcao Desempenhada -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921887">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Function Performed</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Function Performed" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921887"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed">
+        <skos:prefLabel xml:lang="pt">Função Desempenhada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Funtion Performed</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#GuestScientistScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#PhDScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#ScienceTechnologyManagementScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#ScientificInitiationScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#ResearchIntegrationScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#ResearchScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#Master'sScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#PostPhDScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#ResearchTechnicianScholarshipHolder" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#Co-InvestigatorInCharge" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#TechnicalDevelopment" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#Researcher" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#PostPhDResearcher" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#ResearcherResponsible" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#Supervisor" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921887#Other" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#GuestScientistScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Cientista Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Guest Scientist scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#PhDScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#ScienceTechnologyManagementScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Gestão de Ciência e Tecnologia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Science and Technology Management scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#ScientificInitiationScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Iniciação Científica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific initiation scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#ResearchIntegrationScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Integração na Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Integration scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#ResearchScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#Master'sScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Mestrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#PostPhDScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Pós-Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post PhD scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#ResearchTechnicianScholarshipHolder" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolseiro de Técnico de Investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research Technician scholarship holder</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#Co-InvestigatorInCharge" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Co-Investigador Responsável (Co-IR)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-Investigator in Charge (Co-IR)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#TechnicalDevelopment" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Desenvolvimento técnico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical development</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#Researcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#PostPhDResearcher" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador Pós-doutorado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post PhD researcher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#ResearcherResponsible" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador responsável</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Researcher responsible</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#Supervisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Supervisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921887#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921887#FunctionPerformed" />
+    </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Atividades  dbpedia:activity-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921902">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of activity</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of activity" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921902"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+    
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921902#Activity">
+        <skos:prefLabel xml:lang="pt">Tipo de Atividades</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Activities</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#OralPresentationOfWork" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#ScientificArbitrationAtConference" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#ScientificRefereeingInJournals" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#EvaluationCommittee" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#Consulting" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#CourseTaught" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#Interview(program)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#Interview(newspaper)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#ScientificExpedition" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#AcademicDegreeJury" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#MemberAssociation" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#CommitteeMember" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#EventOrganization" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#Guidance" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#OtherJury" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#EventParticipation" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#LegalProcedure" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#AdHocReviewOfJournalArticles" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921902#Tutoring" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#OralPresentationOfWork" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Apresentação oral de trabalho</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Oral presentation of work</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#ScientificArbitrationAtConference" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arbitragem científica em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific arbitration at conference</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#ScientificRefereeingInJournals" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arbitragem científica em revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific refereeing in journals</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#EvaluationCommittee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Comissão de avaliação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Evaluation committee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#Consulting" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Consultoria / Parecer</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Consulting / Opinion</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#CourseTaught" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso / Disciplina lecionado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Course / Subject taught</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#Interview(program)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrevista / Programa (rádio / tv)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Interview / Program (radio / tv)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#Interview(newspaper)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrevista (jornal / revista)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Interview (newspaper / magazine)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#ScientificExpedition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Expedição científica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific expedition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#AcademicDegreeJury" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Júri de grau académico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Academic degree jury</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#MemberAssociation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro da associação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Member of the association</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#CommitteeMember" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro de comissão</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Committee member</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#EventOrganization" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Organização de evento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Event organization</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#Guidance" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Guidance</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#OtherJury" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro júri / avaliação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other jury / evaluation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#EventParticipation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Participação em evento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Event participation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#LegalProcedure" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Processo legal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Legal procedure</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#AdHocReviewOfJournalArticles" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Revisão ad hoc de artigos em revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ad hoc review of journal articles</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921902#Tutoring" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tutoria</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Tutoring</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921902#Activity" />
+    </skos:Concept>
+
+</rdf:RDF>

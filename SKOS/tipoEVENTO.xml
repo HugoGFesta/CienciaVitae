@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de evento dbpedia:event-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921905">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of event</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of event" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921905"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921905#Event">
+        <skos:prefLabel xml:lang="pt">Tipo de Evento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Event</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Concert" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Contest" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Conference" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Congrees" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Meeting" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Exhibition" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Festival" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#RoundTable" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Workshop" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Other" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Seminar" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921905#Symposium" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Concert" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concerto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Concert</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Contest" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Concurso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Contest</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Conference" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Conferencia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Congrees" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Congresso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Congress</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Meeting" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Encontro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Meeting</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Exhibition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Exposicao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Exhibition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Festival" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Festival</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Festival</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#RoundTable" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mesa-redonda</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Round table</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Workshop" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Oficina (workshop)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Workshop</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Seminar" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Seminário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Seminar</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921905#Symposium" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Simpósio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Symposium</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921905#Event" />
+    </skos:Concept>
+
+</rdf:RDF>

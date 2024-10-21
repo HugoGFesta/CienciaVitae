@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Area do Conhecimento -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+<rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13929777">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Scientific Area</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+		<dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Scientific Area" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13929777"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+</rdf:Description>
+
+<skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13929777#scienceArea">
+	<skos:prefLabel xml:lang="pt">Área Ciêntífica</skos:prefLabel> 
+	<skos:prefLabel xml:lang="en">Scientific Area</skos:prefLabel> 
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences"/>
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#ExactSciences"/>	
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences"/>	
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#NaturalSciences"/>	
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>
+	<skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13929777#Humanities"/>
+</skos:ConceptScheme>
+
+<!-- Area 1 - Agricultural Sciences -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences">
+	<skos:prefLabel xml:lang="pt">Ciências Agrárias</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Agricultural Sciences</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries">
+	<skos:prefLabel xml:lang="pt">Agricultura, Silvicultura e Pescas</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Agriculture, Forestry and Fisheries</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Agricultura</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Agronomia</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Agronomy</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Ciência dos Solos</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Soil Science</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub05ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Horticultura</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Horticulture</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub06ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Pescas</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Fisheries</skos:prefLabel> 
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub07ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Produção e Proteção de Plantas</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Plant Production and Protection</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub08ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Silvicultura</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Forestry</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub09ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Viticultura</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Viticulture</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgricultureForestryFisheries"/>	
+</skos:Concept>
+
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology">
+	<skos:prefLabel xml:lang="pt">Biotecnologia Agrária e Alimentar</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Agricultural and Food Biotechnology</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Biofarmacologia Transgénica</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Transgenic Biopharmacology</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Biotecnologia Agrária e Biotecnologia Alimentar</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Agricultural and Food Biotechnology</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub13ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Clonagem de Animais Domésticos</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Cloning of Domestic Animals</skos:prefLabel> 
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub14ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Diagnóstico</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Diagnosis</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Ética Relacionada com a Biotecnologia Agrária</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Ethics related to Agricultural Biotechnology</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub16ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Seleção com Base em Marcadores Moleculares</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Selection Based on Molecular Markers</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub17ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Tecnologia da Manipulação Genética</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Gene Manipulation Technology</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Técnologias de Produção de Biomassa</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Agricultural and Food Biotechnology - Biomass Production Technologies</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalFoodBiotechnology"/>	
+</skos:Concept>
+
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#AnimalDairyScience">
+	<skos:prefLabel xml:lang="pt">Ciência Animal e dos Laticínios</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Animal and Dairy Science</skos:prefLabel> 
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub20ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Animais de Estimação</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Pet</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AnimalDairyScience"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Criação de Gado</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Cattle Breeding</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AnimalDairyScience"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub22ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Zootecnia e Ciência dos Laticínios</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Animal and Dairy Science</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AnimalDairyScience"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#VeterinaryScience">
+	<skos:prefLabel xml:lang="pt">Ciência Veterinárias</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Veterinary Science</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#SubAreaVeterinaryScience">
+	<skos:prefLabel xml:lang="pt">Ciência Veterinárias</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Veterinary Science</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#VeterinaryScience"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea01">
+	<skos:prefLabel xml:lang="pt">Ciências Agrárias - Outras Ciências Agrárias</skos:prefLabel>	
+	<skos:prefLabel xml:lang="en">Agricultural Sciences - Other Agricultural Sciences</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#AgriculturalSciences"/>	
+</skos:Concept>
+
+
+<!-- Area 2 -  Engineering Sciences and Technologies -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies">
+	<skos:prefLabel xml:lang="en">Engineering Sciences and Technologies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Engenharia e Tecnologias</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EnvironmentalBiotechnology">
+	<skos:prefLabel xml:lang="en">Environmental Biotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biotecnologia Ambiental</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea02">
+	<skos:prefLabel xml:lang="en">Environmental Biotechnology</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Biotecnologia Ambiental</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalBiotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea02">
+	<skos:prefLabel xml:lang="en">Diagnostic Biotechnologies in Environmental Management</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biotecnologias de Diagnóstico na Gestão Ambiental</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea02">
+	<skos:prefLabel xml:lang="en">Biotreatment</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Biotratamento</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalBiotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub05ScienceArea02">
+	<skos:prefLabel xml:lang="en">Ethics of Environmental Biotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ética da Biotecnologia Ambiental</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalBiotechnology"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial">
+ 	<skos:prefLabel xml:lang="en">Industrial Biotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biotecnologia Industrial</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub07ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Biocatalysis</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biocatálise</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub08ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Biofuels</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biocombustíveis</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub09ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Bioplastics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Bioplásticos</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub10ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Bioproducts Biomaterials</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Bioprodutos Biomaterias</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Industrial Biotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biotecnologia Industrial</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Fermentation</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Fermentação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub13ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">New Bio-derived Materials</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Novos Materiais de Bio-derivados</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub14ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Bio-derived Chemicals</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Químicos Bio-derivados</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">BioProcessing Technologies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Tecnologias de BioProcessamento</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiotecnologiaIndustrial"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#CivilEngineering">
+ 	<skos:prefLabel xml:lang="en">Civil Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Civil</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub17ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Architectural Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Arquitetónica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CivilEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Civil Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Civil</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CivilEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub19ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Construction Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia da Contrução</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CivilEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub20ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Transportation Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia de Transportes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CivilEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Municipal and Structural Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Municipal e de Estruturas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CivilEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering">
+ 	<skos:prefLabel xml:lang="en">Environmental Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia do Ambiente</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub23ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Remote Control</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Controle Remoto</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Environmental Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Ambiental</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub25ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Petroleum, Energy and Fuels Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia do Petrólio, Energia e Combustiveis</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub26ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Geological Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Geológica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub27ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Maritime Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Marítima</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub28ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Naval Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Naval</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub29ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Oceanographic Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Oceanográfica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub30ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Geotechnics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geotecnia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub31ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Mining and Mineral Processes</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Minas e Processos Minerais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EnvironmentalEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering">
+ 	<skos:prefLabel xml:lang="en">Materials Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia dos Materiais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub33ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Ceramics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Cerâmica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub34ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Composites</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Compósitos</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub35ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Materials Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia dos Materiais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub36ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Paper and Wood</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Papel e Madeira</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub37ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Coatings and Films</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Revestimentos e Filmes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub38ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Textiles</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Têxteis</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MaterialsEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering">
+ 	<skos:prefLabel xml:lang="en">Electrical, Electronic and Computer Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Eletrotécnica, Eletrónica e Informática</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub40ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Automation and Control Systems</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Automação e Sistemas de Controlo</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub41ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Communications and Systems Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia de Comunicações e de Sistemas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub42ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Electrical and Electronic Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Eletrotécnica e Eletrónica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub43ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Computer Hardware and Architecture</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Hardware e Arquitetura de Computadores</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub44ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Robotics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Robótica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub45ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Engineering Sciences and Technologies - Electrical, Electronic and Computer Engineering - Telecommunications</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Telecomunicações</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ElectricalElectronicComputerEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering">
+ 	<skos:prefLabel xml:lang="en">Mechanical Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Mecânica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub47ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Aerospace Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Aeroespacial</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub48ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Sound Engineering and Reliability Analysis</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia do Som e Análise da Fiabilidade</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub49ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Mechanical Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Mecânica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub50ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Nuclear Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Nuclear</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub51ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Applied Mechanics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Mecânica Aplicada</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub52ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Thermodynamics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Termodinâmica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MechanicalEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#MedicalEngineering">
+ 	<skos:prefLabel xml:lang="en">Medical Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Médica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub54ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Medical Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Médica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub55ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Laboratory Technology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Tecnologia Laboratorial</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#ChemicalEngineering">
+ 	<skos:prefLabel xml:lang="en">Chemical Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Química</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub57ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Chemical Process Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia dos Processos Químicos</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ChemicalEngineering"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub58ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Chemical Engineering</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia Química</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ChemicalEngineering"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Nanotechnology">
+ 	<skos:prefLabel xml:lang="en">Nanotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Nanotecnologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub60ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Nanomaterials</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Nanomaterias</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Nanotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub61ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Nanoprocesses</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Nanoprocessos</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Nanotechnology"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#OtherEngineeringSciencesTechnologies">
+ 	<skos:prefLabel xml:lang="en">Other Engineering Sciences and Technologies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Ciências da Engenharia e Tecnologias</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ScienceArea02"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub63ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Food Engineering and Technology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Engenharia e Tecnologia Alimentar</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#OtherEngineeringSciencesTechnologies"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub64ScienceArea02">
+ 	<skos:prefLabel xml:lang="en">Other Engineering Sciences and Technologies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras áreas das Engenharias e Tecnologias</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#OtherEngineeringSciencesTechnologies"/>	
+</skos:Concept>
+
+
+
+<!-- Area 3 - Exact Sciences -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#ExactSciences">
+	<skos:prefLabel xml:lang="en">Exact Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Exatas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#ComputerInformationSciences">
+	<skos:prefLabel xml:lang="en">Computer and Information Sciences</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Ciências da Computação e da Informação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ExactSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea03">
+	<skos:prefLabel xml:lang="en">Bioinformatics</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Bioinformática</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ComputerInformationSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea03">
+	<skos:prefLabel xml:lang="en">Computer Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Computação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ComputerInformationSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea03">
+	<skos:prefLabel xml:lang="en">Information Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Informação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ComputerInformationSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Physics">
+	<skos:prefLabel xml:lang="en">Physics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Física</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ExactSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub06ScienceArea03">
+	<skos:prefLabel xml:lang="en">Acoustics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Acústica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub07ScienceArea03">
+	<skos:prefLabel xml:lang="en">Astronomy</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Astronomia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub08ScienceArea03">
+	<skos:prefLabel xml:lang="en">Atomic Physics</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Física Atómica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub09ScienceArea03">
+	<skos:prefLabel xml:lang="en">Condensed Matter Physics</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Física da Matéria Condensada</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub10ScienceArea03">
+	<skos:prefLabel xml:lang="en">Particle Physics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Física das Partículas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea03">
+	<skos:prefLabel xml:lang="en">Fluid and Plasma Physics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Física dos Fluídos e dos Plasmas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea03">
+	<skos:prefLabel xml:lang="en">Molecular Physics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Física Molecular</skos:prefLabel>	
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub13ScienceArea03">
+	<skos:prefLabel xml:lang="en">Nuclear Physics</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Física Nuclear</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub14ScienceArea03">
+	<skos:prefLabel xml:lang="en">Chemical Physics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Física Química</skos:prefLabel>	
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea03">
+	<skos:prefLabel xml:lang="en">Optics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ótica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Physics"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Mathematics">
+	<skos:prefLabel xml:lang="en">Mathematics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Matemática</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ExactSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub17ScienceArea03">
+	<skos:prefLabel xml:lang="en">Statistics and Probabilities</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estatística e Probabilidades</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Mathematics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea03">
+	<skos:prefLabel xml:lang="en">Applied Mathematics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Matemática Aplicada</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Mathematics"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub19ScienceArea03">
+	<skos:prefLabel xml:lang="en">Pure Mathematics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Matemática Pura</skos:prefLabel>	
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Mathematics"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Chemistry">
+	<skos:prefLabel xml:lang="en">Chemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Química</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ExactSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea03">
+	<skos:prefLabel xml:lang="en">Polymer Science</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Ciência de Polímeros</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub22ScienceArea03">
+	<skos:prefLabel xml:lang="en">Electrochemistry</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Eletroquímica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub23ScienceArea03">
+	<skos:prefLabel xml:lang="en">Analytical Chemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Química Analítica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea03">
+	<skos:prefLabel xml:lang="en">Colloid Chemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Química de Colóides</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub25ScienceArea03">
+	<skos:prefLabel xml:lang="en">Physical Chemistry</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Química Física</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub26ScienceArea03">
+	<skos:prefLabel xml:lang="en">Inorganic Chemistry</skos:prefLabel>	
+	<skos:prefLabel xml:lang="pt">Química Inorgânica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub27ScienceArea03">
+	<skos:prefLabel xml:lang="en">Nuclear Chemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Química Nuclear</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub28ScienceArea03">
+	<skos:prefLabel xml:lang="en">Organic Chemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Química Orgânica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Chemistry"/>	
+</skos:Concept>
+
+
+
+
+<!-- Area 4 - Medical and Health Sciences -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences">
+	<skos:prefLabel xml:lang="en">Medical and Health Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Médicas e da Saúde</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#MedicalBiotechnology">
+	<skos:prefLabel xml:lang="en">Medical Biotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biotecnologia Médica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea04">
+	<skos:prefLabel xml:lang="en">Biomaterials</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biomateriais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalBiotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea04">
+	<skos:prefLabel xml:lang="en">Biotechnology Applied to Health</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biotecnologia Aplicada à Saúde</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea04">
+	<skos:prefLabel xml:lang="en">Genetic-Based Diagnostics and Therapies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Diagnóstico e Terapias de Base Genética</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalBiotechnology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub05ScienceArea04">
+	<skos:prefLabel xml:lang="en">Ethics related to Medical Biotechnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ética Relacionada com a Biotecnologia Médica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalBiotechnology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub06ScienceArea04">
+	<skos:prefLabel xml:lang="en">Technologies involving the Manipulation of Cells, Tissues, Organs or the Whole Organism</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Tecnologias que envolvem a Manipulação de Células, Tecidos, Órgãos ou todo o Organismo</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalBiotechnology"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#HealthScience">
+	<skos:prefLabel xml:lang="en">Health Science</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciência da Saúde</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub08ScienceArea04">
+	<skos:prefLabel xml:lang="en">Biomedical Social Science</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciência Biomédicas Sociais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub09ScienceArea04">
+	<skos:prefLabel xml:lang="en">Sports Science</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências do Desporto</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub10ScienceArea04">
+	<skos:prefLabel xml:lang="en">Health Care and Services</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Cuidados de Saúde e Serviços</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea04">
+	<skos:prefLabel xml:lang="en">Infectious Diseases</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Doenças Infeciosas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea04">
+	<skos:prefLabel xml:lang="en">Nursing</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Enfermagem</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub13ScienceArea04">
+	<skos:prefLabel xml:lang="en">Epidemiology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Epidemiologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub14ScienceArea04">
+	<skos:prefLabel xml:lang="en">Medical Ethics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ética Médica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea04">
+	<skos:prefLabel xml:lang="en">Occupational Hygiene</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Higiene do Trabalho</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub16ScienceArea04">
+	<skos:prefLabel xml:lang="en">Tropical Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina Tropical</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub17ScienceArea04">
+	<skos:prefLabel xml:lang="en">Nutrition and Dietetics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Nutrição e Dietética</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea04">
+	<skos:prefLabel xml:lang="en">Parasitology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Parasitologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub19ScienceArea04">
+	<skos:prefLabel xml:lang="en">Occupational Health</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Saúde Ocupacional</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub20ScienceArea04">
+	<skos:prefLabel xml:lang="en">Public Health and Environmental Health</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Saúde Pública e Saúde Ambiental</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea04">
+	<skos:prefLabel xml:lang="en">Health Services and Policies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Serviços e Políticas de Saúde</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub22ScienceArea04">
+	<skos:prefLabel xml:lang="en">Alcohol and Other Substance Addiction</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Toxicodependência Alcoólica e de Outras Substâncias</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HealthScience"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#BasicMedicine">
+	<skos:prefLabel xml:lang="en">Basic Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina Básica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea04">
+	<skos:prefLabel xml:lang="en">Anatomy and Morphology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Anatomia e Morfologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub25ScienceArea04">
+	<skos:prefLabel xml:lang="en">Pharmacology and Pharmacy</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Farmacologia e Farmácia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub26ScienceArea04">
+	<skos:prefLabel xml:lang="en">Basic Medicine Physiology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina Básica Fisiologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub27ScienceArea04">
+	<skos:prefLabel xml:lang="en">Human Genetics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Genética Humana</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub28ScienceArea04">
+	<skos:prefLabel xml:lang="en">Immunology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Imunologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub29ScienceArea04">
+	<skos:prefLabel xml:lang="en">Neurosciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Neurociências</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub30ScienceArea04">
+	<skos:prefLabel xml:lang="en">Pathology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Patologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub31ScienceArea04">
+	<skos:prefLabel xml:lang="en">Medicinal Chemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Química Médica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub32ScienceArea04">
+	<skos:prefLabel xml:lang="en">Toxicology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Toxicologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BasicMedicine"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine">
+	<skos:prefLabel xml:lang="en">Clinical Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina Clínica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub34ScienceArea04">
+	<skos:prefLabel xml:lang="en">Allergology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Alergologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub35ScienceArea04">
+	<skos:prefLabel xml:lang="en">Andrology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Andrologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub36ScienceArea04">
+	<skos:prefLabel xml:lang="en">Anesthesiology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Anestesiologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub37ScienceArea04">
+	<skos:prefLabel xml:lang="en">Surgery</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Cirurgia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub38ScienceArea04">
+	<skos:prefLabel xml:lang="en">Dermatology and Venereal Diseases</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Dermatologia e Doenças Venéreas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub39ScienceArea04">
+	<skos:prefLabel xml:lang="en">Endocrinology and Metabolism</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Endocrinologia e Metabolismo</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub40ScienceArea04">
+	<skos:prefLabel xml:lang="en">Stomatology, oral medicine and surgery</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estomatologia, medicina e cirurgia oral</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub41ScienceArea04">
+	<skos:prefLabel xml:lang="en">Gastroenterology and Hepatology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Gastrenterologia e Hepatologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub42ScienceArea04">
+	<skos:prefLabel xml:lang="en">Geriatrics and Gerentology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geriatria e Gerentologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub43ScienceArea04">
+	<skos:prefLabel xml:lang="en">Hematology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Hematologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub44ScienceArea04">
+	<skos:prefLabel xml:lang="en">Complementary and Integrative Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina Complementar e Medicina Integrativa</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub45ScienceArea04">
+	<skos:prefLabel xml:lang="en">Intensive Care Medicine and Emergency Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina dos Cuidados Intensivos e Medicina de Urgência</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub46ScienceArea04">
+	<skos:prefLabel xml:lang="en">General Medicine and Internal Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Medicina Geral e Medicina Interna</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub47ScienceArea04">
+	<skos:prefLabel xml:lang="en">Clinical Neurology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Neurologia Clínica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub48ScienceArea04">
+	<skos:prefLabel xml:lang="en">Obstetrics and Gynecology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Obstetrícia e Ginecologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub49ScienceArea04">
+	<skos:prefLabel xml:lang="en">Ophthalmology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Oftalmologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub50ScienceArea04">
+	<skos:prefLabel xml:lang="en">Oncology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Oncologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub51ScienceArea04">
+	<skos:prefLabel xml:lang="en">Orthopaedics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ortopedia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub52ScienceArea04">
+	<skos:prefLabel xml:lang="en">Otorhinolaryngology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Otorrinolaringologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub53ScienceArea04">
+	<skos:prefLabel xml:lang="en">Other Areas of Clinical Medicine</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Áreas da Medicina Clínica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub54ScienceArea04">
+	<skos:prefLabel xml:lang="en">Pediatrics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Pediatria</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub55ScienceArea04">
+	<skos:prefLabel xml:lang="en">Psychiatry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Psiquiatria</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub56ScienceArea04">
+	<skos:prefLabel xml:lang="en">Radiology, Nuclear Medicine and Medical Imaging</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Radiologia, Medicina Nuclear e Imagens Médicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub57ScienceArea04">
+	<skos:prefLabel xml:lang="en">Rheumatology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Reumatologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub58ScienceArea04">
+	<skos:prefLabel xml:lang="en">Respiratory System</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Sistema Respiratório</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub59ScienceArea04">
+	<skos:prefLabel xml:lang="en">Cardiac and Cardiovascular Systems</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Sistemas Cardíacos e Cardiovasculares</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub60ScienceArea04">
+	<skos:prefLabel xml:lang="en">Transplants</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Transplantes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub61ScienceArea04">
+	<skos:prefLabel xml:lang="en">Urology and Nephrology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Urologia e Nefrologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#ClinicalMedicine"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#OtherMedicalSciences">
+	<skos:prefLabel xml:lang="en">Other Medical Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Ciências Médicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#MedicalHealthSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub63ScienceArea04">
+	<skos:prefLabel xml:lang="en">Forensic Science</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciência Forense</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#OtherMedicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub64ScienceArea04">
+	<skos:prefLabel xml:lang="en">Other Areas of Medical Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Áreas as Ciências Médicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#OtherMedicalSciences"/>		
+</skos:Concept>
+
+
+
+<!-- Area 5 - Natural Sciences -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#NaturalSciences">
+	<skos:prefLabel xml:lang="en">Natural Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Naturais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences">
+	<skos:prefLabel xml:lang="en">Biological Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Biológicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#NaturalSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biophysics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biofísica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea05">
+	<skos:prefLabel xml:lang="en">Cell Biology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia Celular</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub05ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biology of Species Evolution</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia da Evolução da Espécies</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub06ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biology of Reproduction</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia da Reprodução</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub07ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biology of Behavioral Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia das Ciências do Comportamento</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub08ScienceArea05">
+	<skos:prefLabel xml:lang="en">Freshwater Biology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia de Água Doce</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub09ScienceArea05">
+	<skos:prefLabel xml:lang="en">Developmental Biology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia do Desenvolvimento</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub10ScienceArea05">
+	<skos:prefLabel xml:lang="en">Marine Biology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia Marinha</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea05">
+	<skos:prefLabel xml:lang="en">Molecular Biology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Biologia Molecular</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biochemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Bioquímica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub13ScienceArea05">
+	<skos:prefLabel xml:lang="en">Botany</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Botânica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub14ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biodiversity Conservation</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Conservação da Biodiversidade</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea05">
+	<skos:prefLabel xml:lang="en">Ecology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ecologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub16ScienceArea05">
+	<skos:prefLabel xml:lang="en">Entomology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Entomologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub17ScienceArea05">
+	<skos:prefLabel xml:lang="en">Phytology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Fitologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea05">
+	<skos:prefLabel xml:lang="en">Genetics and Heredity</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Genética e Hereditariedade</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub19ScienceArea05">
+	<skos:prefLabel xml:lang="en">Limnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Limnologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub20ScienceArea05">
+	<skos:prefLabel xml:lang="en">Biochemical Research Methods</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Métodos de Investigação Bioquímica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea05">
+	<skos:prefLabel xml:lang="en">Mycology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Micologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub22ScienceArea05">
+	<skos:prefLabel xml:lang="en">Microbiology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Microbiologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub23ScienceArea05">
+	<skos:prefLabel xml:lang="en">Ornithology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ornitologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea05">
+	<skos:prefLabel xml:lang="en">Other biological sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras ciências biológicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub25ScienceArea05">
+	<skos:prefLabel xml:lang="en">Virology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Virologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub26ScienceArea05">
+	<skos:prefLabel xml:lang="en">Zoology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Zoologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#BiologicalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences">
+	<skos:prefLabel xml:lang="en">Earth and Environmental Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Terra e do Ambiente</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#NaturalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub28ScienceArea05">
+	<skos:prefLabel xml:lang="en">Atmospheric Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Atmosfera</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub29ScienceArea05">
+	<skos:prefLabel xml:lang="en">Environmental Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências do Ambiente</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub30ScienceArea05">
+	<skos:prefLabel xml:lang="en">Geosciences and Multidisciplinary Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geociências e Estudos Pluridisciplinares</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub31ScienceArea05">
+	<skos:prefLabel xml:lang="en">Geophysics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geofísica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub32ScienceArea05">
+	<skos:prefLabel xml:lang="en">Physical Geography</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geografia Física</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub33ScienceArea05">
+	<skos:prefLabel xml:lang="en">Geology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub34ScienceArea05">
+	<skos:prefLabel xml:lang="en">Geochemistry</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geoquímica</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub35ScienceArea05">
+	<skos:prefLabel xml:lang="en">Hydrology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Hidrologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub36ScienceArea05">
+	<skos:prefLabel xml:lang="en">Climate Research</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Investigação Climática</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub37ScienceArea05">
+	<skos:prefLabel xml:lang="en">Meteorology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Meteorologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub38ScienceArea05">
+	<skos:prefLabel xml:lang="en">Mineralogy</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Mineralogia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub39ScienceArea05">
+	<skos:prefLabel xml:lang="en">Oceanography</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Oceanografia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub40ScienceArea05">
+	<skos:prefLabel xml:lang="en">Paleontology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Paleontologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub41ScienceArea05">
+	<skos:prefLabel xml:lang="en">Aquatic Resources</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Recursos Aquáticos</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub42ScienceArea05">
+	<skos:prefLabel xml:lang="en">Volcanology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Vulcanologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EarthEnvironmentalSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub43ScienceArea05">
+	<skos:prefLabel xml:lang="en">Other Natural Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Ciências Naturais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#NaturalSciences"/>		
+</skos:Concept>
+
+
+
+
+
+<!-- Area 6 - Social Sciences -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#SocialSciences">
+	<skos:prefLabel xml:lang="en">Social Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Sociais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#CommunicationSciences">
+	<skos:prefLabel xml:lang="en">Communication Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Comunicação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea06">
+	<skos:prefLabel xml:lang="en">Information Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Informação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CommunicationSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea06">
+	<skos:prefLabel xml:lang="en">Documentary Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Documentais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CommunicationSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea06">
+	<skos:prefLabel xml:lang="en">Social Communication and Socio-cultural Communication</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Comunicação Social e Comunicação Sócio-cultural</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CommunicationSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub05ScienceArea06">
+	<skos:prefLabel xml:lang="en">Journalism</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Jornalismo</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#CommunicationSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EducationalSciences">
+	<skos:prefLabel xml:lang="en">Educational Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências da Educação</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub07ScienceArea06">
+	<skos:prefLabel xml:lang="en">Special Education</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Educação Especial</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EducationalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub08ScienceArea06">
+	<skos:prefLabel xml:lang="en">General Education</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Educação Geral</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EducationalSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#PoliticalSciences">
+	<skos:prefLabel xml:lang="en">Political Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Políticas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub10ScienceArea06">
+	<skos:prefLabel xml:lang="en">Public Administration</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Administração Pública</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PoliticalSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea06">
+	<skos:prefLabel xml:lang="en">Political Science</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Política</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PoliticalSciences"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea06">
+	<skos:prefLabel xml:lang="en">Organizational Theory</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Teoria das Organizações</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PoliticalSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Law">
+	<skos:prefLabel xml:lang="en">Law</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Direito</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub14ScienceArea06">
+	<skos:prefLabel xml:lang="en">Crimonology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Crimonologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Law"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea06">
+	<skos:prefLabel xml:lang="en">Law</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Direito</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Law"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub16ScienceArea06">
+	<skos:prefLabel xml:lang="en">Criminal Law</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Direito Penal</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Law"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EconomicsManagement">
+	<skos:prefLabel xml:lang="en">Economics and Management</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Economia e Gestão</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea06">
+	<skos:prefLabel xml:lang="en">Econometrics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Econometria</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicsManagement"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub19ScienceArea06">
+	<skos:prefLabel xml:lang="en">Industrial Relations</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Relações Industriais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicsManagement"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub20ScienceArea06">
+	<skos:prefLabel xml:lang="en">Economics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Economia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicsManagement"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea06">
+	<skos:prefLabel xml:lang="en">Business Organization and Management</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Organização e Gestão de Empresas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicsManagement"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#EconomicSocialGeography">
+	<skos:prefLabel xml:lang="en">Economic and Social Geography</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geografia Económica e Social</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub23ScienceArea06">
+	<skos:prefLabel xml:lang="en">Environmental Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências do Ambiente</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicSocialGeography"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea06">
+	<skos:prefLabel xml:lang="en">Urban Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudos Urbanos</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicSocialGeography"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub25ScienceArea06">
+	<skos:prefLabel xml:lang="en">Cultural Geography</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geografia Cultural</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicSocialGeography"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub26ScienceArea06">
+	<skos:prefLabel xml:lang="en">Economic and Social Geography</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Geografia Económica e Social</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicSocialGeography"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub27ScienceArea06">
+	<skos:prefLabel xml:lang="en">Transport Planning and Social Aspects of Transport</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Planeamento de Transportes e Aspectos Sociais dos Transportes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#EconomicSocialGeography"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#OtherSocialSciences">
+	<skos:prefLabel xml:lang="en">Other Social Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Ciências Sociais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub29ScienceArea06">
+	<skos:prefLabel xml:lang="en">Interdisciplinary Social Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ciências Sociais Interdisciplinares</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#OtherSocialSciences"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub30ScienceArea06">
+	<skos:prefLabel xml:lang="en">Other Areas of Social Sciences</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Áreas das Ciências Sociais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#OtherSocialSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Psychology">
+	<skos:prefLabel xml:lang="en">Psychology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Psicologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub32ScienceArea06">
+	<skos:prefLabel xml:lang="en">Special Psychology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Psicologia Especial</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Psychology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub33ScienceArea06">
+	<skos:prefLabel xml:lang="en">General Psychology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Psicologia Geral</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Psychology"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sociology">
+	<skos:prefLabel xml:lang="en">Sociology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Sociologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#SocialSciences"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub35ScienceArea06">
+	<skos:prefLabel xml:lang="en">Anthropology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Antropologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Sociology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub36ScienceArea06">
+	<skos:prefLabel xml:lang="en">Social affairs</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Assuntos sociais</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Sociology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub37ScienceArea06">
+	<skos:prefLabel xml:lang="en">Demography</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Demografia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Sociology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub38ScienceArea06">
+	<skos:prefLabel xml:lang="en">Ethnology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Etnologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Sociology"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub39ScienceArea06">
+	<skos:prefLabel xml:lang="en">Sociology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Sociologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Sociology"/>	
+</skos:Concept>
+
+
+<!-- Area 7 - Humanities -->
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Humanities">
+	<skos:prefLabel xml:lang="en">Humanities</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Humanidades</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Arts">
+	<skos:prefLabel xml:lang="en">Arts</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Artes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Humanities"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub02ScienceArea07">
+	<skos:prefLabel xml:lang="en">Architecture and Design</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Arquitetura e Design</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Arts"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub03ScienceArea07">
+	<skos:prefLabel xml:lang="en">Arts</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Artes</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Arts"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub04ScienceArea07">
+	<skos:prefLabel xml:lang="en">Study of the Performing Arts (music, theater and drama)</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudo das Artes da Representação (música, teatro e dramaturgia)</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Arts"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub05ScienceArea07">
+	<skos:prefLabel xml:lang="en">Film, Radio and Television Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudos de Cinema, Rádio e Televisão</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Arts"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub06ScienceArea07">
+	<skos:prefLabel xml:lang="en">Folklore Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudos de Folclore</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Arts"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub07ScienceArea07">
+	<skos:prefLabel xml:lang="en">Art History</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">História da Arte</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Arts"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#PhilosophyEthicsReligion">
+	<skos:prefLabel xml:lang="en">Philosophy, Ethics and Religion</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Filosofia, Ética e Religião</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Humanities"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub09ScienceArea07">
+	<skos:prefLabel xml:lang="en">Religious Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudos da Religião</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PhilosophyEthicsReligion"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub10ScienceArea07">
+	<skos:prefLabel xml:lang="en">Ethics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Ética</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PhilosophyEthicsReligion"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub11ScienceArea07">
+	<skos:prefLabel xml:lang="en">Philosophy</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Filosofia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PhilosophyEthicsReligion"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub12ScienceArea07">
+	<skos:prefLabel xml:lang="en">History and Philosophy of Science and Technology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">História e Filosofia da Ciência e Tecnologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PhilosophyEthicsReligion"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub13ScienceArea07">
+	<skos:prefLabel xml:lang="en">Theology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Teologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#PhilosophyEthicsReligion"/>		
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#HistoryArchaeology">
+	<skos:prefLabel xml:lang="en">History and Archaeology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">História e Arqueologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Humanities"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub15ScienceArea07">
+	<skos:prefLabel xml:lang="en">Archaeology</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Arqueologia</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HistoryArchaeology"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub16ScienceArea07">
+	<skos:prefLabel xml:lang="en">History</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">História</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#HistoryArchaeology"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures">
+	<skos:prefLabel xml:lang="en">Languages and Literatures</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Linguas e Literaturas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Humanities"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub18ScienceArea07">
+	<skos:prefLabel xml:lang="en">General Language Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudos Gerais da Linguagem</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub19ScienceArea07">
+	<skos:prefLabel xml:lang="en">General Literature Studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Estudos Gerais da Literatura</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub20ScienceArea07">
+	<skos:prefLabel xml:lang="en">Specific Languages</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Linguas Específicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub21ScienceArea07">
+	<skos:prefLabel xml:lang="en">Linguistics</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Linguística</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures"/>	
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub22ScienceArea07">
+	<skos:prefLabel xml:lang="en">Specific Literature</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Literatura Específicas</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures"/>		
+</skos:Concept>
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub23ScienceArea07">
+	<skos:prefLabel xml:lang="en">Literary Theory</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Teoria Literária</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#LanguagesLiteratures"/>	
+</skos:Concept>
+
+<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13929777#Sub24ScienceArea07">
+	<skos:prefLabel xml:lang="en">Other Humanities</skos:prefLabel>
+	<skos:prefLabel xml:lang="pt">Outras Humanidades</skos:prefLabel>
+	<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13929777#scienceArea"/>
+	<skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13929777#Humanities"/>		
+</skos:Concept>
+
+</rdf:RDF>	

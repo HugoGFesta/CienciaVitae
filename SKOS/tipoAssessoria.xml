@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de assessoria dbpedia:academicAdvisor-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921901">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of advisory</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of advisory" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921901"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921901#Advisory">
+        <skos:prefLabel xml:lang="pt">Tipo de Assessoria</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Advisory</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#Reviewer" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#Coordinator" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#Specialist" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#Member" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#Organizer" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#Other" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#President" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921901#VicePresident" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#Reviewer" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Avaliador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Reviewer</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#Coordinator" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#Specialist" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Specialist</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#Member" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Member</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#Organizer" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Organizador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Organizer</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#President" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Presidente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">President</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921901#VicePresident" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Vice-Presidente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vice-President</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921901#Advisory" />
+    </skos:Concept>
+
+</rdf:RDF>

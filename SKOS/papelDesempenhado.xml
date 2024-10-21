@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Papel desempenhado -->
+<!-- vivo:roleContributesTo -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+    
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921874">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Role played</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Role played" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921874"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921874#role">
+        <skos:prefLabel xml:lang="pt">Papel Desempenhado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Role Played</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleOrientation" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921874#rolePublications" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleEdition" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleInvestigation" />
+    </skos:ConceptScheme>
+
+<!-- Papel desempenhado em orientação-->
+
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#roleOrientation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Papel desempenhado em orientação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Role played in orientation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#coAdvisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coorientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleOrientation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#advisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleOrientation" />
+    </skos:Concept>
+
+<!-- Papel desempenhado em publicações-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#rolePublications" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Papel desempenhado em publicações</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Role played in publications</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#author" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Autor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Author</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#rolePublications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#coAuthor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Co-autor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-author</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#rolePublications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#editor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Editor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Editor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#rolePublications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#supportStaff" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pessoal de suporte</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Support staff</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#rolePublications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#translator" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tradutor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Translator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#rolePublications" />
+    </skos:Concept>
+
+<!-- Papel em edição número de revista-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#roleEdition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Papel em edição número de revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Role in magazine issue</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#coEditor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Co-editor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-editor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleEdition" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#editorr" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Editor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Editor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleEdition" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#associateEditor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Editor associado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Associate editor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleEdition" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#guestEditor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Editor Convidado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Guest Editor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleEdition" />
+    </skos:Concept>
+
+<!-- Papel desempenhado numa interpretação musical-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#roleMusical" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Papel desempenhado numa interpretação musical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Role played in a musical performance</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#bass" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Baixo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bass</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#baritone" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Barítono</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Baritone</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#instrumentalist" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Instrumentista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Instrumentalist</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#maestro" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Maestro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Maestro</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Outher</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#soprano" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Soprano</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Soprano </skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#tenor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tenor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Tenor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleMusical" />
+    </skos:Concept>
+
+<!-- Papel desempenhado em investigação-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#roleInvestigation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Papel desempenhado em investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Role played in research</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#coInvestigator" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coinvestigador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-investigator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleInvestigation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921874#research" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Investigador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Investigator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921874#role" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921874#roleInvestigation" />
+    </skos:Concept>
+
+</rdf:RDF>

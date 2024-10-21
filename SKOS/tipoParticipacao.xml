@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de participacao  schema:participant-->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921913">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of participation</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of participation" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921913"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921913#Participation">
+        <skos:prefLabel xml:lang="pt">Tipo de Participação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Participation</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921913#EventParticipation" />
+    </skos:ConceptScheme>
+
+<!-- Participation in an academic jury-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Participação em júri académico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Participation in an academic jury</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#arguent" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arguente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Arguent</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#principalLecturer" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arguente principal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Principal lecturer</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#advisor" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Orientador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Advisor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#presidentOfTheJury" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Presidente do júri</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">President of the jury</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#memberVoting" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Vogal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Voting Member</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInAnAcademicJury" />
+    </skos:Concept>
+
+<!-- Participation in committees-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Participação em comissão</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Participation in committees</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#consultant" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Consultor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Consultant</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#coordinatio" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coordenador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Coordinator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#director" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Diretor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Director</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#member" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Member</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+    </skos:Concept>    
+
+	<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#other" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#chairmanOrViceChairman" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Presidente / Vice-presidente</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Chairman / Vice-Chairman</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+	</skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#votingMembers" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Vogal</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Voting Member</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#ParticipationInCommittees" />
+	</skos:Concept>
+
+<!-- Event participation-->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#EventParticipation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Participação em evento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Event participation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#coorganizer" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Coorganizador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-organizer</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#EventParticipation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#memberOfTheScientificCommittee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro da Comissão Científica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Member of the Scientific Committee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#EventParticipation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#memberOfTheOrganizingCommittee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Membro da Comissão Organizadora</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Member of the Organizing Committee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#EventParticipation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#others" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#EventParticipation" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921913#chairmanOfTheOrganizingCommittee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Presidente da Comissão Organizadora</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chairman of the Organizing Committee</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921913#Participation" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921913#EventParticipation" />
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de Curso vivo:degreeCandidacy-->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921907">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of degree</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of degree" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921907"/>
+        <dcterms:issued>2024-07-15</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921907#AcademicDegree">
+        <skos:prefLabel xml:lang="pt">Tipo de Curso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Degree</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#Less4YearsOfSchooling" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#ElementarySchoolGrade1" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#ElementarySchoolGrade2" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#ElementarySchoolGrade3" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#HighSchool" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#TechnologicalSpecializationCourse" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#ProfessionalHigherTechnicalCourse" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#HighSchool" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#BachelorsDegree" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#PostBachelorsSpecialization" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#SpecializationDegree" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#BachelorDegree" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#DiplomaOfHigherSpecializedStudies" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#PostGraduateSpecialization" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#PostGraduation" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907MastersDegree(completionOfSpecialization)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#MastersDegree" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#IntegratedMastersDegree" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#PhDCourse" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#PhD" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#SpecialistTitle" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#ScientificCoordinationQualification" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#TitleOfAggregate" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#PostPhd" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921907#Other" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#Less4YearsOfSchooling" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Menos de 4 anos de escolaridade</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Less than 4 years of schooling</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#ElementarySchoolGrade1" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Ensino básico 1º ciclo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Elementary school Grade 1</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#ElementarySchoolGrade2" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Ensino básico 2º ciclo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Elementary school Grade 2</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#ElementarySchoolGrade3" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Ensino básico 3º ciclo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Elementary school Grade 3</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#HighSchool" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Ensino secundário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">High school</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#TechnologicalSpecializationCourse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso de Especialização Tecnológica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technological Specialization Course</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#ProfessionalHigherTechnicalCourse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso Técnico Superior Professional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Professional Higher Technical Course</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#HighSchool" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso médio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">High school</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#BachelorsDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bacharelato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bachelor's degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#PostBachelorsSpecialization" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialização pós-bacharelato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post-bachelor's specialization</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#SpecializationDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Diploma de especialização</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Specialization degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#BachelorDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciatura</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Bachelor's Degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+        <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#DiplomaOfHigherSpecializedStudies" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">DESE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Diploma of Higher Specialized Studies</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#PostGraduateSpecialization" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Especialização pós-licenciatura</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post-graduate specialization</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#PostGraduation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pós-Graduação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post-graduation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907MastersDegree(completionOfSpecialization)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso de mestrado (conclusão de curso de especialização)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's degree (completion of specialization course)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#MastersDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mestrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's Degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#IntegratedMastersDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mestrado integrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Integrated master's degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#PhDCourse" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Curso de doutoramento (conclusão de unidades curriculares)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD course (completion of curricular units)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#PhD" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#SpecialistTitle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Título de especialista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Specialist title</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#ScientificCoordinationQualification" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Título de Habilitação de Coordenação Científica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scientific Coordination Qualification</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#TitleOfAggregate" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Título de Agregado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Title of Aggregate</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#PostPhd" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pós-Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Post-phd</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921907#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outros</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921907#AcademicDegree" />
+    </skos:Concept>
+
+</rdf:RDF>

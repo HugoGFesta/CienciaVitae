@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- GrauAcademico vivo:degreeCandidacy -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921888">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Academic Degree</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Academic Degree" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921888"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921888#Degree">
+        <skos:prefLabel xml:lang="pt">Grau Académico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Academic Degree</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921888#Graduation" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921888#MastersDegree" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921888#PhD" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921888#Graduation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciatura</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Graduation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921888#Degree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921888#Degree" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921888#MastersDegree" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Mestrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Master's Degree</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921888#Degree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921888#Degree" />
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921888#PhD" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Doutoramento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PhD</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921888#Degree" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921888#Degree" />
+    </skos:Concept>
+
+</rdf:RDF>

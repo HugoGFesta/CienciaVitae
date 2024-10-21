@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Meio de pubilcacao da revisao -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921889">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Means of publishing the review</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Means of publishing the review" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921889"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921889#PublicationReview">
+        <skos:prefLabel xml:lang="pt">Meio de publicação da revisão</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Means of publishing the review</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#Newsletter" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#BookPublishing" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#Newspaper" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#Book" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#Magazine" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#Magazinee" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921889#Website" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#Newsletter" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Boletim informativo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Newsletter</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#BookPublishing" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Edição de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book publishing</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#Newspaper" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Jornal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Newspaper</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#Book" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#Magazine" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Magazine</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magazine</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#Magazinee" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magazine</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921889#Website" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Website</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Website</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921889#PublicationReview" />
+    </skos:Concept>
+
+</rdf:RDF>

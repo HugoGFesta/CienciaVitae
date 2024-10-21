@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tipo de Utilização -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921870">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of usage</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of usage" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921870"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921870#TypeOfUsage">
+        <skos:prefLabel xml:lang="pt">Tipo de Utilização</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Usage</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921870#Personal" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921870#Professional" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921870#Personal" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pessoal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Personal</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921870#TypeOfUsage" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921870#TypeOfUsage" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921870#Professional" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Profissional</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Professional</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921870#TypeOfUsage" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921870#TypeOfUsage" />
+    </skos:Concept>
+
+</rdf:RDF>

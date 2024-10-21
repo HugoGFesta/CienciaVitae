@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Dispositivos -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921876">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of device</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of device" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921876"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice">
+        <skos:prefLabel xml:lang="pt">Tipo de dispositivo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of device</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921876#Fax" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921876#Pager" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921876#Telephone" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921876#Cellphone" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921876#Fax" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Fax</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Fax</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921876#Pager" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pager</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pager</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921876#Telephone" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Telefone</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Telephone</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921876#Cellphone" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Telemóvel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Cellphone</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921876#TypeOfDevice" />
+    </skos:Concept>
+
+</rdf:RDF>

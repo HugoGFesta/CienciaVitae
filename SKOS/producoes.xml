@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Produções -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921896">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Productions</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Productions" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921896"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921896#Production">
+        <skos:prefLabel xml:lang="pt">Produções</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Productions</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:ConceptScheme>
+
+<!-- Publications -->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#Publications" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Publicações</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Publications</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#newsletterArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em boletim informativo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Newsletter article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#conferenceArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#newspaperArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em jornal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Newspaper article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#articleInMagazine" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Article in magazine</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#magazineArticle" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artigo em revista (magazine)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magazine article</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#bookChapter" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Capítulo de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book chapter</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#exhibitionCatalog" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Catálogo de exposição</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Exhibition catalog</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#workingDocument" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Documento de trabalho</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Working document</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#bookEdition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Edição de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book edition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#magazineIssueEdition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Edição de número de revista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Magazine issue edition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#dictionaryEntry" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrada de dicionário</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Dictionary entry</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#encyclopediaEntry" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Entrada de enciclopédia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Encyclopedia entry</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#testSheet" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Enunciado de teste</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Test sheet</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#book" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#manual" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Manual</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Manual</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#conferencePoster" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Poster em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference poster</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#preface" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Prefácio/Posfácio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Preface/Posface</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#prepress" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pré-impressão</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Prepress</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#onlineResource" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Recurso online</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Online resource</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#report" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Relatório</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Report</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#conferenceAbstract" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Resumo em conferência</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conference abstract</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#bookReview" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Revisão de livro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Book review</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#thesis" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tese/Dissertação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Thesis/Dissertation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#translation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Tradução</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Translation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#website" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Website</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Website</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Publications" />
+    </skos:Concept>
+
+<!-- Artistic/Interpretation -->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#Artistic" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Artística/Interpretação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Artistic/Interpretation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#visualArt" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Arte visual</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Visual art</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#scenography" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Cenografia</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scenography</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#musicalComposition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Composição musical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Musical composition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#fictionalTale" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Conto de ficção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Fictional tale</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>    
+
+	<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#choreography" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Coreografia</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Choreography</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#artExhibition" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Exposição artística</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Art exhibition</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+	</skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#museumExhibition" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Exposição de curadoria/museu</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Curator/museum exhibition</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#audioRecording" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Gravação áudio</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Audio recording</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#videoRecording" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Gravação vídeo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Video recording</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#script" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Guião</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Script</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>    
+
+	<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#artisticInterpretation" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Interpretação artística</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Artistic interpretation</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+	</skos:Concept>
+
+	<skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#musicalInterpretation" xml:lang="pt">
+		<skos:prefLabel xml:lang="pt">Interpretação musical</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Musical interpretation</skos:prefLabel>
+		<skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+	</skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#threatricalPiece" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Obra teatral</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Theatrical piece</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#radioShow" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Programa de rádio/tv</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Radio/TV show</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#lightingProject" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Projeto de luz</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lighting project</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#soundProject" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Projeto de som</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sound project</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Artistic" />
+    </skos:Concept>    
+
+<!-- Intellectual Property -->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Propriedade Intelectual</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Intellectual Property</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#licensing" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Licenciamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Licensing</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#trademark" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Marca registada</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Trademark</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#patent" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Patente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Patent</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" />
+    </skos:Concept>
+
+     <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#provisionalPatent" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Pedido provisório de patente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Provisional patent application</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#copyrightRegistration" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Registo de direitos de autor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Copyright registration</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#IntellectualProperty" />
+    </skos:Concept>
+
+<!-- Other -->
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outros</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#annotation" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Anotação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Annotation</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#dataset" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Conjunto de dados</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Dataset</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#spinoffCompany" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Empresa spin-off</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Spin-off company</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#invention" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Invenção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Invention</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#standardOrPolicy" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Norma ou política</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Standard or policy</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#technicalStandard" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Norma técnica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Technical standard</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#physicalObject" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Objeto Físico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Physical Object</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#otherproduction" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outra produção</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other production</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#dataManagementPlan" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Plano de gestão de dados</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Data management plan</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#legalProceedings" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Processo judicial</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Legal proceedings</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#software" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Software</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Software</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921896#researchTechnique" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Técnica de investigação</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Research technique</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921896#Production" />
+        <skos:broader rdf:resource="http://doi.org/10.5281/zenodo.13921896#Other" />
+    </skos:Concept>
+
+</rdf:RDF>

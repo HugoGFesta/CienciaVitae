@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Tipo de Financiamento vivo:providesFundingThrough -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921906">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Type of financing</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Type of financing" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921906"/>
+        <dcterms:issued>2024-07-15</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing">
+        <skos:prefLabel xml:lang="pt">Tipo de Financiamento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Type of Financing</skos:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921906#Scholarship" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921906#Other" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921906#Project" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921906#Scholarship" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Bolsa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scholarship</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921906#Other" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921906#Project" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Projeto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Project</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921906#TypeOfFinancing" />
+    </skos:Concept>
+
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- competências linguísticas -->
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+>
+
+    <rdf:Description rdf:about="http://doi.org/10.5281/zenodo.13921881">
+        <dcterms:title>Ciência Vitae controlled vocabulary - Language Skills</dcterms:title>
+        <dcterms:creator>FCT - Fundação para a Ciência e a Tecnologia</dcterms:creator>
+        <dcterms:creator>Hugo Festa</dcterms:creator>
+		<dcterms:contributor>Ana Alice Baptista</dcterms:contributor>
+        <dcterms:description>The terms in this vocabulary for the "Language Skills" were defined by FCT as value lists for specific attributes. From these lists, the controlled vocabulary was encoded in SKOS by Hugo Festa under the supervision of Professor Ana Alice Baptista.</dcterms:description>
+        <dcterms:identifier rdf:resource="http://doi.org/10.5281/zenodo.13921881"/>
+        <dcterms:issued>2024-08-23</dcterms:issued>
+    </rdf:Description>
+
+    <skos:ConceptScheme rdf:about="http://doi.org/10.5281/zenodo.13921881#LanguageSkills">
+        <skos:prefLabel xml:lang="pt">Competências linguísticas</skos:prefLabel> 
+        <skos:prefLabel xml:lang="en">Language Skills</skos:prefLabel> 
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921881#BasicUser(A1)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921881#BasicUser(A2)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921881#IndependentUser(B1)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921881#IndependentUser(B2)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921881#ProficiencyUser(C1)" />
+        <skos:hasTopConcept rdf:resource="http://doi.org/10.5281/zenodo.13921881#ProficiencyUser(C2)" />
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921881#BasicUser(A1)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador elementar (A1)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Basic user (A1)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921881#BasicUser(A2)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador elementar (A2)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Basic user (A2)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921881#IndependentUser(B1)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador independente (B1)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Independent user (B1)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921881#IndependentUser(B2)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador independente (B2)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Independent user (B2)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921881#ProficiencyUser(C1)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador proficiente (C1)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Proficiency user (C1)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://doi.org/10.5281/zenodo.13921881#ProficiencyUser(C2)" xml:lang="pt">
+        <skos:prefLabel xml:lang="pt">Utilizador proficiente (C2)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Proficiency user (C2)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+        <skos:topConceptOf rdf:resource="http://doi.org/10.5281/zenodo.13921881#LanguageSkills" />
+    </skos:Concept>
+
+</rdf:RDF>
