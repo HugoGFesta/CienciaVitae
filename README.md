@@ -6,7 +6,9 @@ Ciência Vitae is a national platform for academic curricula in Portugal that re
 
 # Technologies Used
 SKOS (Simple Knowledge Organization System)
+
 RDF (Resource Description Framework)
+
 Linked Open Data (LOD)
 
 # Project Structure
